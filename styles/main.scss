@@ -1,4 +1,10 @@
-p{
-    background-color: aquamarine;
-    text-transform: lowercase;
+@import './base/fonts';
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.ic-community {
+  font-size: 50px;
+  color: red;
 }
